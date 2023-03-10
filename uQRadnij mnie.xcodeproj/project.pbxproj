@@ -11,6 +11,7 @@
 		2F7F2AEC29BB565D003E4FB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7F2AEB29BB565D003E4FB8 /* ContentView.swift */; };
 		2F7F2AEE29BB565F003E4FB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7F2AED29BB565F003E4FB8 /* Assets.xcassets */; };
 		2F7F2AF129BB565F003E4FB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F7F2AF029BB565F003E4FB8 /* Preview Assets.xcassets */; };
+		2F7F2AF829BB570A003E4FB8 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7F2AF729BB570A003E4FB8 /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2F7F2AEB29BB565D003E4FB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F7F2AED29BB565F003E4FB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F7F2AF029BB565F003E4FB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F7F2AF729BB570A003E4FB8 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				2F7F2AE929BB565D003E4FB8 /* uQRadnij_mnieApp.swift */,
 				2F7F2AEB29BB565D003E4FB8 /* ContentView.swift */,
+				2F7F2AF729BB570A003E4FB8 /* CustomTabBar.swift */,
 				2F7F2AED29BB565F003E4FB8 /* Assets.xcassets */,
 				2F7F2AEF29BB565F003E4FB8 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F7F2AEC29BB565D003E4FB8 /* ContentView.swift in Sources */,
+				2F7F2AF829BB570A003E4FB8 /* CustomTabBar.swift in Sources */,
 				2F7F2AEA29BB565D003E4FB8 /* uQRadnij_mnieApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

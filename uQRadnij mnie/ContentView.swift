@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var hue: Double = 0
+    @State private var animateGradient = false
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            LinearGradient(gradient: Gradient(colors: [.red, .white]), startPoint: .topLeading, endPoint: .bottomTrailing)
+                .hueRotation(.degrees(hue))
+                .ignoresSafeArea()
+            
+            VStack {
+                Spacer()
+                
+                CustomTabBar(hue: $hue.animation(.easeInOut(duration: 1.5)))
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
